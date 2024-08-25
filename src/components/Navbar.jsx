@@ -15,7 +15,7 @@ const Navbar = () => {
             <div className="flex justify-between items-center">
                 <div className="flex items-center flex-shrink-0">
                     <img src={logo} alt="" style={{ height: '25px', width: '25px', marginRight: '5px' }} />
-                    <div className="span text-xl tracking-tight">Virtuo</div>
+                    <div className="span text-xl tracking-tight bg-gradient-to-r  from-cyan-600 to-pink-700 text-transparent bg-clip-text font-bold">Virtuo</div>
                 </div>
 
                 <ul className="hidden lg:flex ml-14 space-x-12">
