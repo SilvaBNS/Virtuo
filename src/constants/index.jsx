@@ -1,9 +1,4 @@
-import { BotMessageSquare } from "lucide-react";
-import { BatteryCharging } from "lucide-react";
-import { Fingerprint } from "lucide-react";
-import { ShieldHalf } from "lucide-react";
-import { PlugZap } from "lucide-react";
-import { GlobeLock } from "lucide-react";
+import { Monitor, Volume2, Headphones, Move, Wifi, BookOpen } from 'lucide-react';
 
 import user1 from "../assets/profile-pictures/user1.jpg";
 import user2 from "../assets/profile-pictures/user2.jpg";
@@ -60,40 +55,40 @@ export const testimonials = [
 
 export const features = [
   {
-    icon: <BotMessageSquare />,
-    text: "Drag-and-Drop Interface",
+    icon: <Monitor />,
+    text: "Ultra-Realistic Visuals",
     description:
-      "Easily design and arrange your VR environments with a user-friendly drag-and-drop interface.",
+      "Dive into stunningly lifelike worlds with Virtuo’s ultra-high-definition displays, offering crisp visuals and vibrant colors that bring your virtual adventures to life.",
   },
   {
-    icon: <Fingerprint />,
-    text: "Multi-Platform Compatibility",
+    icon: <Volume2 />,
+    text: "360° Spatial Audio",
     description:
-      "Build VR applications that run seamlessly across multiple platforms, including mobile, desktop, and VR headsets.",
+      "Experience sound from every direction with Virtuo’s 360° spatial audio, allowing you to fully immerse yourself in the environment with pinpoint accuracy.",
   },
   {
-    icon: <ShieldHalf />,
-    text: "Built-in Templates",
+    icon: <Headphones />,
+    text: "Comfort-Focused Design",
     description:
-      "Jumpstart your VR projects with a variety of built-in templates for different types of applications and environments.",
+      "Enjoy long gaming sessions with our lightweight, ergonomic design that’s built for comfort, ensuring a perfect fit and minimal strain during extended use.",
   },
   {
-    icon: <BatteryCharging />,
-    text: "Real-Time Preview",
+    icon: <Move />,
+    text: "Advanced Motion Tracking",
     description:
-      "Preview your VR application in real-time as you make changes, allowing for quick iterations and adjustments.",
+      "Move naturally in your virtual space with Virtuo’s cutting-edge motion tracking technology, offering precise and responsive controls for an intuitive experience.",
   },
   {
-    icon: <PlugZap />,
-    text: "Collaboration Tools",
+    icon: <Wifi />,
+    text: "Seamless Connectivity",
     description:
-      "Work together with your team in real-time on VR projects, enabling seamless collaboration and idea sharing.",
+      "Connect effortlessly with your devices through Virtuo’s seamless wireless technology, ensuring smooth, lag-free performance for a truly uninterrupted experience.",
   },
   {
-    icon: <GlobeLock />,
-    text: "Analytics Dashboard",
+    icon: <BookOpen />,
+    text: "Expanded Content Library",
     description:
-      "Gain valuable insights into user interactions and behavior within your VR applications with an integrated analytics dashboard.",
+      "Access a vast library of VR games, apps, and experiences, continuously expanding with the latest content to keep you engaged and entertained.",
   },
 ];
 
