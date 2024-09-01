@@ -6,6 +6,9 @@ import user3 from "../assets/profile-pictures/user3.jpg";
 import user4 from "../assets/profile-pictures/user4.jpg";
 import user5 from "../assets/profile-pictures/user5.jpg";
 import user6 from "../assets/profile-pictures/user6.jpg";
+import image1 from "../assets/image1.jpeg";
+import image2 from "../assets/image2.jpg";
+import image3 from "../assets/image3.jpeg";
 
 export const navItems = [
   { label: "Features", href: "#" },
@@ -170,4 +173,21 @@ export const communityLinks = [
   { href: "#", text: "Conferences" },
   { href: "#", text: "Hackathons" },
   { href: "#", text: "Jobs" },
+];
+
+
+// SliderData export
+export const sliderData = [
+  {
+    image: image1,
+    text: "Image 1 Description",
+  },
+  {
+    image: image2,
+    text: "Image 2 Description",
+  },
+  {
+    image: image3,
+    text: "Image 3 Description",
+  },
 ];
