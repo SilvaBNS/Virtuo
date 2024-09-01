@@ -27,24 +27,6 @@ const HeroSection = () => {
             </a>
           </div>
 
-          {/* videos */}
-          <div className="flex mt-10 justify-center">
-            <video 
-                autoPlay
-                loopmuted
-                className="rounded-lg w-1/2 border border-cyan-600 shadow-pink-400 mx-2 my-4">
-                    <source src={video1} type="video/mp4"/>
-                    Your Browser does not uspport the video tag.
-                </video>
-
-                <video 
-                autoPlay
-                loopmuted
-                className="rounded-lg w-1/2 border border-cyan-600 shadow-pink-400 mx-2 my-4">
-                    <source src={video2} type="video/mp4"/>
-                    Your Browser does not uspport the video tag.
-                </video>
-          </div>
           
           
       </div>
