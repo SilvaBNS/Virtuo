@@ -97,24 +97,19 @@ export const features = [
 
 export const checklistItems = [
   {
-    title: "Code merge made easy",
+    title: "Choose Your VR Gear",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "Explore our innovative VR products—whether you're looking for the sleek VisionSphere Glasses, the immersive Immersio Headset, or the intuitive NeuraVista Controller, we've got the perfect gear for your virtual adventures.",
   },
   {
-    title: "Review code without worry",
+    title: "Set Up and Connect",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "Simply connect it to your PC, console, or mobile device, and follow our straightforward instructions to get everything calibrated and ready to go. In just a few minutes, you’ll be set to explore new realities.",
   },
   {
-    title: "AI Assistance to reduce time",
+    title: "Dive Into Virtual Worlds",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
-  },
-  {
-    title: "Share work in minutes",
-    description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "Now it’s time to experience the magic. Put on your VR gear and immerse yourself in breathtaking virtual worlds. Whether you're gaming, exploring, or creating, our VR products open up endless possibilities for adventure and discovery.",
   },
 ];
 
@@ -180,14 +175,14 @@ export const communityLinks = [
 export const sliderData = [
   {
     image: image1,
-    text: "Image 1 Description",
+    text: "VisionSphere VR Glasses",
   },
   {
     image: image2,
-    text: "Image 2 Description",
+    text: "Immersio VR Glasses with Headset",
   },
   {
     image: image3,
-    text: "Image 3 Description",
+    text: "Virtinspire2 VR Glasses with Headset",
   },
 ];
