@@ -1,8 +1,10 @@
 import AboutUs from "./components/AboutUs"
 import FeatureSection from "./components/FeatureSection"
+import Footer from "./components/Footer"
 import HeroSection from "./components/HeroSection"
 import Navbar from "./components/Navbar"
 import Products from "./components/Products"
+import Testimonials from "./components/Testimonials"
 import Workflow from "./components/Workflow"
 
 const App = () => {
@@ -15,6 +17,8 @@ const App = () => {
         <FeatureSection/>
         <Workflow/>
         <AboutUs/>
+        <Testimonials/>
+        <Footer/>
       </div>
       
     </>
